@@ -26,4 +26,5 @@ def get_input_give_output():
     # this part gives the output.
     print(f'Your total expense is this:{total_expense}')
 
-get_input_give_output()
+if __name__ == "__main__":
+    get_input_give_output()
